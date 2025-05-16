@@ -89,10 +89,6 @@ function Home() {
     mostrarCategorias();
   }, []);
 
-  useEffect(() => {
-    mostrarTarefas();
-  }, [filters]);
-
   const showModal = () => {
     setIsModalOpen(true);
   };

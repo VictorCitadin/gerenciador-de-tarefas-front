@@ -2,7 +2,7 @@ import { ConfigProvider, Typography } from "antd";
 import ptBR from "antd/locale/pt_BR";
 import { BrowserRouter, Route, Routes } from "react-router";
 import Home from "./pages/Home";
-import LayoutOfficial from "./LayoutOfficial";
+import LayoutOfficial from "./layouts/LayoutOfficial";
 import "./reset.css";
 import Categorias from "./pages/Categorias";
 import EasterEgg from "./pages/EasterEgg";

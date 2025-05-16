@@ -1,0 +1,18 @@
+src
+  assets
+  layouts
+    LayoutOfficial.tsx - ok
+  pages
+    tasks
+      TasksList.tsx
+      TaskModal.tsx
+    categories
+      CategoriesList.tsx
+      CategoryModal.tsx
+  components
+    DateWrapper.tsx -> recebe uma data e formata para ptBR
+    ActiveWrapper.tsx -> recebe um booleano e formata para Sim e Não
+  hooks
+    useCategory.tsx -> Aprender pra que serve e o que é um hook
+  styles
+    reset.css - ok
